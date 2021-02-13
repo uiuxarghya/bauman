@@ -1,4 +1,4 @@
-;window.Modernizr = function(a, b, c) {
+window.Modernizr = function(a, b, c) {
     function C(a) {
         j.cssText = a
     }

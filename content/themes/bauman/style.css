@@ -18,7 +18,7 @@
 02. Magic Cursor
 03. Page Preloader
 04. Header Elements
-05. Main Content 
+05. Main Content
 06. Footer Elements
 07. Responsive Media Querries
 
@@ -102,7 +102,7 @@ mark, ins {
     background: none repeat scroll 0 0 #111;
     text-decoration: none;
     color: #fff;
-    padding: 0px 10px;
+    padding: 0 10px;
     display: inline-block;
     border-radius: 2px;
 }
@@ -846,15 +846,15 @@ main {
 
 .scale-up #ball:before {
     opacity: 1;
-    transform: translateX(0px);
-    -webkit-transform: translateX(0px);
+    transform: translateX(0);
+    -webkit-transform: translateX(0);
     transition: all 0.3s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
 }
 
 .scale-up #ball:after {
     opacity: 1;
-    transform: translateX(0px);
-    -webkit-transform: translateX(0px);
+    transform: translateX(0);
+    -webkit-transform: translateX(0);
     transition: all 0.3s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
 }
 
@@ -865,15 +865,15 @@ main {
 .scale-up-carousel #ball:before {
     width: 8px;
     opacity: 1;
-    transform: translateY(0px);
-    -webkit-transform: translateY(0px);
+    transform: translateY(0);
+    -webkit-transform: translateY(0);
 }
 
 .scale-up-carousel #ball:after {
     width: 8px;
     opacity: 1;
-    transform: translateY(0px);
-    -webkit-transform: translateY(0px);
+    transform: translateY(0);
+    -webkit-transform: translateY(0);
 }
 
 #ball i {
@@ -1066,7 +1066,7 @@ main {
     height: 1px;
     background: rgba(0,0,0,1);
     position: absolute;
-    top: 0px;
+    top: 0;
     left: 0;
     overflow: hidden;
 }
@@ -1080,7 +1080,7 @@ main {
     height: 6px;
     background: rgba(255,255,255,1);
     position: absolute;
-    top: 0px;
+    top: 0;
     left: 0;
     right: 0;
     overflow: hidden;
@@ -1213,7 +1213,7 @@ nav {
     .classic-menu nav {
         position: relative;
         width: auto;
-        top: 0px;
+        top: 0;
         -webkit-transition: all 0.2s ease-in-out 0.5s;
         transition: all 0.2s ease-in-out 0.5s;
         display: block;
@@ -1252,12 +1252,12 @@ nav {
 
     .classic-menu .menu-timeline {
         opacity: 1!important;
-        -webkit-transition: translateY(0px)!important;
-        transform: translateY(0px)!important;
+        -webkit-transition: translateY(0)!important;
+        transform: translateY(0)!important;
     }
 
     .flexnav li:last-child {
-        padding-right: 0px;
+        padding-right: 0;
     }
 
     .flexnav li a {
@@ -1360,8 +1360,8 @@ nav {
     }
 
     .classic-menu .flexnav li ul {
-        -webkit-transform: translate3d(0px, 30px, 0px);
-        transform: translate3d(0px, 30px, 0px);
+        -webkit-transform: translate3d(0, 30px, 0);
+        transform: translate3d(0, 30px, 0);
         display: block!important;
         opacity: 0!important;
         height: inherit!important;
@@ -1423,8 +1423,8 @@ nav {
     }
 
     .flexnav li ul.flexnav-show {
-        -webkit-transform: translate3d(0px, 0px, 0px);
-        transform: translate3d(0px, 0px, 0px);
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
         opacity: 1!important;
         visibility: visible;
         -webkit-transition: opacity 0.2s ease-in-out 0.1s, visibility 0.2s ease-in-out, transform 0.2s ease-in-out 0.1s;
@@ -1659,7 +1659,7 @@ nav, nav.open {
     width: 40px;
     height: 40px;
     float: right;
-    top: 0px;
+    top: 0;
     right: 0;
     display: flex;
     position: relative;
@@ -1674,7 +1674,7 @@ nav, nav.open {
 }
 
 #menu-burger {
-    top: 0px;
+    top: 0;
     width: 25px;
     height: 25px;
     position: relative;
@@ -1722,7 +1722,7 @@ nav, nav.open {
 }
 
 #menu-burger span:nth-child(1) {
-    left: 0px;
+    left: 0;
 }
 
 #menu-burger span:nth-child(2) {
@@ -1819,8 +1819,8 @@ nav, nav.open {
     padding: 0 80px;
     margin: 0 auto;
     margin-bottom: 0;
-    transform: translateY(0vh);
-    -webkit-transform: translateY(0vh);
+    transform: translateY(0);
+    -webkit-transform: translateY(0);
 }
 
 #main-page-content::after {
@@ -1879,7 +1879,7 @@ footer.fixed {
     display: table;
     left: 0;
     pointer-events: none;
-    ; }
+     }
 
 .copyright {
     position: relative;
@@ -1918,7 +1918,7 @@ footer.fixed {
 }
 
 footer .socials-wrap {
-    margin-top: 0px;
+    margin-top: 0;
 }
 
 .socials-wrap:hover {
@@ -1987,7 +1987,7 @@ footer .socials-wrap {
 }
 
 .socials li {
-    margin-right: 0px;
+    margin-right: 0;
     margin-left: 10px;
     list-style: none;
     color: #999;
@@ -2049,7 +2049,7 @@ footer .socials-wrap {
 }
 
 .socials li:last-child {
-    margin-left: 0px;
+    margin-left: 0;
 }
 
 .socials li a {
@@ -2090,7 +2090,7 @@ footer .socials-wrap {
 .button-wrap {
     position: relative;
     cursor: pointer;
-    top: 0px;
+    top: 0;
     pointer-events: initial;
 }
 
@@ -2271,7 +2271,7 @@ nav, nav.open {
 
 @media only screen and (max-width: 1024px) {
     .preloader-wrap .outer {
-        padding: 50px 50px;
+        padding: 50px;
         box-sizing: border-box;
     }
 
@@ -2286,7 +2286,7 @@ nav, nav.open {
     }
 
     .has-mask {
-        margin-bottom: 0px;
+        margin-bottom: 0;
     }
 
     .row_padding_left {
@@ -2572,8 +2572,8 @@ nav, nav.open {
         float: right;
         margin: 0 auto;
         right: -10px;
-        transform: translateX(0px) translateY(20px)!important;
-        -webkit-transform: translateX(0px) translateY(20px)!important;
+        transform: translateX(0) translateY(20px)!important;
+        -webkit-transform: translateX(0) translateY(20px)!important;
     }
 
     .socials-wrap:hover {
@@ -2588,20 +2588,20 @@ nav, nav.open {
     .socials-wrap .socials {
         margin-top: 5px;
         text-align: left;
-        transform: translateX(0px);
-        -webkit-transform: translateX(0px);
+        transform: translateX(0);
+        -webkit-transform: translateX(0);
     }
 
     .socials-wrap .socials li {
         opacity: 1;
-        transform: translateY(0px);
-        -webkit-transform: translateY(0px);
+        transform: translateY(0);
+        -webkit-transform: translateY(0);
     }
 
     .socials-wrap:hover .socials li {
         opacity: 1;
-        transform: translateY(0px)!important;
-        -webkit-transform: translateY(0px)!important;
+        transform: translateY(0)!important;
+        -webkit-transform: translateY(0)!important;
     }
 
     .socials li {
@@ -2668,10 +2668,10 @@ nav, nav.open {
 
     figcaption {
         background-color: rgba(0,0,0,0.3);
-        bottom: 0px;
+        bottom: 0;
         font-size: 10px;
         padding: 5px 10px;
-        right: 0px;
+        right: 0;
         border-radius: 0;
     }
 
@@ -2784,7 +2784,7 @@ nav, nav.open {
         right: 0;
         left: auto;
         margin: auto;
-        top: 0px;
+        top: 0;
     }
 
     .copyright {
@@ -2822,12 +2822,12 @@ nav, nav.open {
         float: none;
         left: -6px;
         right: auto;
-        top: 0px;
+        top: 0;
         margin: 0;
     }
 
     .socials li {
-        margin: 0 0px auto;
+        margin: 0 0 auto;
     }
 }
 
@@ -2889,7 +2889,7 @@ nav, nav.open {
     }
 
     #footer-container {
-        padding: 0px;
+        padding: 0;
         margin: 0;
     }
 
@@ -2928,7 +2928,7 @@ nav, nav.open {
     }
 
     footer.showcase-footer .footer-middle {
-        top: 0px;
+        top: 0;
     }
 
     footer.showcase-footer .showcase-subtitles-wrap {

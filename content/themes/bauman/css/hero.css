@@ -41,7 +41,7 @@
 #hero-caption {
     display: table;
     width: 100%;
-    padding: 200px 80px 100px 80px;
+    padding: 200px 80px 100px;
     max-width: 1280px;
     margin: 0 auto;
     height: 100%;
@@ -51,7 +51,7 @@
 }
 
 #hero.has-image #hero-caption {
-    padding: 80px 80px 240px 80px;
+    padding: 80px 80px 240px;
     max-width: none;
 }
 
@@ -149,20 +149,20 @@
 }
 
 .load-project-page .hero-title, .load-project-page-carousel .hero-title {
-    transform: translateY(0px);
-    -webkit-transform: translateY(0px);
+    transform: translateY(0);
+    -webkit-transform: translateY(0);
     opacity: 1!important;
 }
 
 .load-next-project .hero-title {
-    transform: translateY(0px);
-    -webkit-transform: translateY(0px);
+    transform: translateY(0);
+    -webkit-transform: translateY(0);
     opacity: 1!important;
 }
 
 .load-next-page .hero-title {
-    transform: translateY(0px)!important;
-    -webkit-transform: translateY(0px)!important;
+    transform: translateY(0)!important;
+    -webkit-transform: translateY(0)!important;
     opacity: 1!important;
 }
 
@@ -170,7 +170,7 @@
     font-size: 16px;
     font-weight: 600;
     line-height: 20px;
-    margin-bottom: 0px;
+    margin-bottom: 0;
     width: 100%;
     z-index: 10;
     opacity: 0;
@@ -181,20 +181,20 @@
 }
 
 .load-next-project .hero-subtitle, .load-project-page-carousel .hero-subtitle {
-    transform: translateY(0px)!important;
-    -webkit-transform: translateY(0px)!important;
+    transform: translateY(0)!important;
+    -webkit-transform: translateY(0)!important;
     opacity: 1!important;
 }
 
 .load-next-page .hero-subtitle {
-    transform: translateY(0px)!important;
-    -webkit-transform: translateY(0px)!important;
+    transform: translateY(0)!important;
+    -webkit-transform: translateY(0)!important;
     opacity: 1!important;
 }
 
 .load-project-page .hero-subtitle {
-    transform: translateY(0px)!important;
-    -webkit-transform: translateY(0px)!important;
+    transform: translateY(0)!important;
+    -webkit-transform: translateY(0)!important;
     opacity: 1!important;
 }
 
@@ -286,7 +286,7 @@
     display: inline-block;
     vertical-align: top;
     margin: 0 auto;
-    margin-bottom: 0px;
+    margin-bottom: 0;
     width: auto;
     font-size: 3.5vw;
     line-height: 90px;
@@ -302,7 +302,7 @@
     font-size: 14px;
     font-weight: 600;
     line-height: 20px;
-    margin-bottom: 0px;
+    margin-bottom: 0;
     width: 100%;
     z-index: 10;
     position: relative;
@@ -337,15 +337,15 @@
     height: 100%;
     overflow: hidden;
     z-index: 3;
-    transform: translateY(0px);
-    -webkit-transform: translateY(0px);
+    transform: translateY(0);
+    -webkit-transform: translateY(0);
 }
 
 .next-page-title {
     display: table;
     width: 100%;
     margin: 0 auto;
-    padding: 200px 80px 100px 80px;
+    padding: 200px 80px 100px;
     max-width: 1280px;
     margin: 0 auto;
     height: 100%;
@@ -362,7 +362,7 @@
     font-weight: 500;
     margin-top: 30px;
     height: 140px;
-    margin-bottom: 0px;
+    margin-bottom: 0;
     width: auto;
     font-size: 48px;
     line-height: 70px;
@@ -437,11 +437,11 @@
 ---------------------------------------------------*/
 @media only screen and (max-width: 1466px) {
     #hero-caption {
-        padding: 200px 60px 100px 60px;
+        padding: 200px 60px 100px;
     }
 
     #hero.has-image #hero-caption {
-        padding: 80px 60px 220px 60px;
+        padding: 80px 60px 220px;
     }
 
     .hero-bottom {
@@ -450,26 +450,26 @@
     }
 
     .next-page-title {
-        padding: 200px 60px 100px 60px;
+        padding: 200px 60px 100px;
     }
 }
 
 @media only screen and (max-width: 1024px) {
     #hero-caption {
-        padding: 220px 40px 140px 40px;
+        padding: 220px 40px 140px;
     }
 
     #hero.has-image #hero-caption {
-        padding: 80px 40px 220px 40px;
+        padding: 80px 40px 220px;
     }
 
     .hero-bottom {
         height: 100px;
-        padding: 40px 40px;
+        padding: 40px;
     }
 
     .next-page-title {
-        padding: 220px 40px 140px 40px;
+        padding: 220px 40px 140px;
     }
 
     .page-title span, .light-content .page-title span {
@@ -479,11 +479,11 @@
 
 @media only screen and (max-width: 767px) {
     #hero-caption {
-        padding: 200px 30px 140px 30px;
+        padding: 200px 30px 140px;
     }
 
     #hero.has-image #hero-caption {
-        padding: 80px 30px 220px 30px;
+        padding: 80px 30px 220px;
     }
 
     .hero-title {
@@ -494,11 +494,11 @@
 
     .hero-bottom {
         height: 80px;
-        padding: 30px 30px;
+        padding: 30px;
     }
 
     .next-page-title {
-        padding: 200px 30px 140px 30px;
+        padding: 200px 30px 140px;
     }
 
     .page-title {
@@ -510,11 +510,11 @@
 
 @media only screen and (max-width: 479px) {
     #hero-caption {
-        padding: 180px 20px 140px 20px;
+        padding: 180px 20px 140px;
     }
 
     #hero.has-image #hero-caption {
-        padding: 80px 20px 220px 20px;
+        padding: 80px 20px 220px;
     }
 
     .hero-title {
@@ -529,7 +529,7 @@
     }
 
     .next-page-title {
-        padding: 180px 20px 140px 20px;
+        padding: 180px 20px 140px;
     }
 
     .page-title {

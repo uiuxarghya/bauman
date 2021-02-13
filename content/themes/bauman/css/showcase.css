@@ -103,7 +103,7 @@
 }
 
 #showcase-holder .showcase-captions {
-    padding: 80px 80px 240px 80px;
+    padding: 80px 80px 240px;
     max-width: none;
     width: 100%;
     box-sizing: border-box;
@@ -117,7 +117,7 @@
 
 #showcase-holder .swiper-pagination-bullet {
     position: absolute;
-    padding: 80px 80px 240px 80px;
+    padding: 80px 80px 240px;
     width: 100%;
     height: 100%;
     display: table;
@@ -143,7 +143,7 @@
 }
 
 .swiper-slide .outer {
-    padding: 80px 100px 240px 100px;
+    padding: 80px 100px 240px;
     width: 100%;
     height: 100%;
     position: relative;
@@ -184,8 +184,8 @@
 
 .swiper-pagination-bullet:first-child .title {
     opacity: 1;
-    -webkit-transform: translateY(0px);
-    transform: translateY(0px);
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
 }
 
 .light-content .title {
@@ -223,7 +223,7 @@
     font-size: 16px;
     font-weight: 600;
     line-height: 20px;
-    margin-bottom: 0px;
+    margin-bottom: 0;
     width: 100%;
     z-index: 10;
     opacity: 0;
@@ -234,8 +234,8 @@
 
 .swiper-pagination-bullet:first-child .subtitle {
     opacity: 1;
-    -webkit-transform: translateY(0px);
-    transform: translateY(0px);
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
 }
 
 .showcase-subtitles-wrap {
@@ -278,8 +278,8 @@
     position: absolute;
     top: 0;
     opacity: 1;
-    transform: translateY(0px);
-    -webkit-transform: translateY(0px);
+    transform: translateY(0);
+    -webkit-transform: translateY(0);
 }
 
 .light-content .showcase-subtitles-wrap .subtitle {
@@ -297,7 +297,7 @@
     position: relative;
     float: left;
     left: -30px;
-    bottom: 0px;
+    bottom: 0;
     pointer-events: initial;
     opacity: 1;
 }
@@ -355,7 +355,7 @@
 }
 
 .arrows-wrap .swiper-button-prev::after {
-    height: 0px;
+    height: 0;
     width: 2px;
     position: absolute;
     left: 0;
@@ -602,8 +602,8 @@
 }
 
 .swiper-pagination-bullet:first-child .counter {
-    -webkit-transform: translateY(0px) scale(1);
-    transform: translateY(0px) scale(1);
+    -webkit-transform: translateY(0) scale(1);
+    transform: translateY(0) scale(1);
 }
 
 .showcase-counter {
@@ -721,15 +721,15 @@
 ---------------------------------------------------*/
 @media only screen and (max-width: 1466px) {
     .swiper-slide .outer {
-        padding: 80px 80px 220px 80px;
+        padding: 80px 80px 220px;
     }
 
     #showcase-holder .showcase-captions {
-        padding: 80px 60px 220px 60px;
+        padding: 80px 60px 220px;
     }
 
     #showcase-holder .swiper-pagination-bullet {
-        padding: 80px 60px 220px 60px;
+        padding: 80px 60px 220px;
     }
 
     .showcase-counter::before {
@@ -751,15 +751,15 @@
 
 @media only screen and (max-width: 1024px) {
     .swiper-slide .outer {
-        padding: 80px 60px 220px 60px;
+        padding: 80px 60px 220px;
     }
 
     #showcase-holder .showcase-captions {
-        padding: 80px 40px 220px 40px;
+        padding: 80px 40px 220px;
     }
 
     #showcase-holder .swiper-pagination-bullet {
-        padding: 80px 40px 220px 40px;
+        padding: 80px 40px 220px;
     }
 
     .carousel-caption {
@@ -769,15 +769,15 @@
 
 @media only screen and (max-width: 767px) {
     .swiper-slide .outer {
-        padding: 80px 50px 220px 50px;
+        padding: 80px 50px 220px;
     }
 
     #showcase-holder .showcase-captions {
-        padding: 80px 30px 220px 30px;
+        padding: 80px 30px 220px;
     }
 
     #showcase-holder .swiper-pagination-bullet {
-        padding: 80px 30px 220px 30px;
+        padding: 80px 30px 220px;
     }
 
     .title {
@@ -816,15 +816,15 @@
 
 @media only screen and (max-width: 479px) {
     .swiper-slide .outer {
-        padding: 80px 40px 220px 40px;
+        padding: 80px 40px 220px;
     }
 
     #showcase-holder .showcase-captions {
-        padding: 80px 20px 220px 20px;
+        padding: 80px 20px 220px;
     }
 
     #showcase-holder .swiper-pagination-bullet {
-        padding: 80px 20px 220px 20px;
+        padding: 80px 20px 220px;
     }
 
     .title {
